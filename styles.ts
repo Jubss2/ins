@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native'
 
 export const styles = StyleSheet.create({
 container:{
-    flex: 0.7,
+    flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
@@ -17,9 +17,12 @@ image:{
     height: 230,
 
 },
-conteudo2:{
-    
+conteudo2:{ 
     marginTop:-40,
+    paddingHorizontal:50
+},
+conteudo3:{ 
+    marginTop:-50,
     paddingHorizontal:50
 },
 });
